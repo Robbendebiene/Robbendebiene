@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/Robbendebiene/Contrackbution",
   "dependencies": {
-    "@octokit/graphql": "^9.0.2"
+    "@octokit/graphql": "^9.0.2",
+    "handlebars": "^4.7.8",
+    "minimist": "^1.2.8"
   }
 }
