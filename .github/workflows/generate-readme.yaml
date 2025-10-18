@@ -1,0 +1,38 @@
+name: Generate README
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache: npm
+
+      - name: Install dependencies
+        run: npm i
+
+      - name: Generate README
+        run: node src/main.mjs --templateFile README.hbs --accessToken ${{ secrets.GITHUB_TOKEN }}
+
+      # see https://docs.github.com/en/account-and-profile/reference/email-addresses-reference#your-noreply-email-address
+      - name: Commit README on changes
+        run: |
+          git config --local user.name "${GITHUB_ACTOR}"
+          git config --local user.email "${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com"
+          if [[ `git diff --exit-code README.md` ]]; then
+            git stage README.md
+            git commit -m "Update README"
+            git push
+          else
+            echo "README is up to date."
+          fi
