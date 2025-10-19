@@ -22,10 +22,13 @@ jobs:
         run: npm i
 
       - name: Generate README
-        run: node src/main.mjs --templateFile README.hbs --accessToken ${{ secrets.GITHUB_TOKEN }}
+        # The default GITHUB_TOKEN is not authenticated as the repository owner.
+        # The script will fail as it queries details for the authenticated user ("viewer").
+        # Therefore we use a custom access token stored in a secret.
+        run: node src/main.mjs --templateFile README.hbs --accessToken ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
-      # see https://docs.github.com/en/account-and-profile/reference/email-addresses-reference#your-noreply-email-address
       - name: Commit README on changes
+        # For git config see: https://docs.github.com/en/account-and-profile/reference/email-addresses-reference#your-noreply-email-address
         run: |
           git config --local user.name "${GITHUB_ACTOR}"
           git config --local user.email "${GITHUB_ACTOR_ID}+${GITHUB_ACTOR}@users.noreply.github.com"
