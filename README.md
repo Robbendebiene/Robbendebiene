@@ -46,13 +46,10 @@ Maintainer of <b><a href="https://github.com/Robbendebiene/Gesturefy">Gesturefy<
   <a href="https://codepen.io/Robbendebiene/" target="_blank"><img alt="Codepen" src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white" /></a>
 </p>
 
-
-<img align="right" alt="My e-mail" height="20" src="assets/mail.svg" />
-
-<hr/>
-
 <!--🧺🐰🥚-->
 
 <pre>
 return ANiceDay();
 </pre>
+
+<img align="right" alt="My e-mail" height="20" src="assets/mail.svg" />
