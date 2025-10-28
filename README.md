@@ -37,13 +37,13 @@ I'm passionate about UI and code design. Mostly trying to build long lasting app
     <h2>Projects I Contributed To</h2>
   </summary>
   <ul>
-      <li><a href="https://github.com/fleaflet/flutter_map">fleaflet/flutter_map</a> | <a href="https://github.com/fleaflet/flutter_map/commits?author&#x3D;Robbendebiene">commits</a></li>
-      <li><a href="https://github.com/openstreetmap/openstreetmap-website">openstreetmap/openstreetmap-website</a> | <a href="https://github.com/openstreetmap/openstreetmap-website/commits?author&#x3D;Robbendebiene">commits</a></li>
-      <li><a href="https://github.com/Baseflow/flutter-geolocator">Baseflow/flutter-geolocator</a> | <a href="https://github.com/Baseflow/flutter-geolocator/commits?author&#x3D;Robbendebiene">commits</a></li>
-      <li><a href="https://github.com/maplibre/flutter-maplibre-gl">maplibre/flutter-maplibre-gl</a> | <a href="https://github.com/maplibre/flutter-maplibre-gl/commits?author&#x3D;Robbendebiene">commits</a></li>
-      <li><a href="https://github.com/NeTEx-CEN/NeTEx">NeTEx-CEN/NeTEx</a> | <a href="https://github.com/NeTEx-CEN/NeTEx/commits?author&#x3D;Robbendebiene">commits</a></li>
-      <li><a href="https://github.com/mikes222/mapsforge_flutter">mikes222/mapsforge_flutter</a> | <a href="https://github.com/mikes222/mapsforge_flutter/commits?author&#x3D;Robbendebiene">commits</a></li>
-      <li><a href="https://github.com/motis-project/ppr">motis-project/ppr</a> | <a href="https://github.com/motis-project/ppr/commits?author&#x3D;Robbendebiene">commits</a></li>
+      <li><a href="https://github.com/fleaflet/flutter_map">fleaflet/flutter_map</a> | <a href="https://github.com/fleaflet/flutter_map/commits?author&#x3D;Robbendebiene">10 commits</a></li>
+      <li><a href="https://github.com/openstreetmap/openstreetmap-website">openstreetmap/openstreetmap-website</a> | <a href="https://github.com/openstreetmap/openstreetmap-website/commits?author&#x3D;Robbendebiene">5 commits</a></li>
+      <li><a href="https://github.com/Baseflow/flutter-geolocator">Baseflow/flutter-geolocator</a> | <a href="https://github.com/Baseflow/flutter-geolocator/commits?author&#x3D;Robbendebiene">1 commits</a></li>
+      <li><a href="https://github.com/maplibre/flutter-maplibre-gl">maplibre/flutter-maplibre-gl</a> | <a href="https://github.com/maplibre/flutter-maplibre-gl/commits?author&#x3D;Robbendebiene">1 commits</a></li>
+      <li><a href="https://github.com/NeTEx-CEN/NeTEx">NeTEx-CEN/NeTEx</a> | <a href="https://github.com/NeTEx-CEN/NeTEx/commits?author&#x3D;Robbendebiene">1 commits</a></li>
+      <li><a href="https://github.com/mikes222/mapsforge_flutter">mikes222/mapsforge_flutter</a> | <a href="https://github.com/mikes222/mapsforge_flutter/commits?author&#x3D;Robbendebiene">51 commits</a></li>
+      <li><a href="https://github.com/motis-project/ppr">motis-project/ppr</a> | <a href="https://github.com/motis-project/ppr/commits?author&#x3D;Robbendebiene">2 commits</a></li>
   </ul>
 </details>
 
