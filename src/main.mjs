@@ -31,14 +31,21 @@ for (const year of years) {
   for (const result of results) {
     // filter to only include external repos
     if (result.permission === 'READ') {
-      repoMap.set(result.url, result);
+      // merge commit count for existing items
+      const item = repoMap.get(result.url);
+      if (item) {
+        item.commitsCount += result.commitsCount;
+      }
+      else {
+        repoMap.set(result.url, result);
+      }
     }
   }
 }
 
 // sort by stars
 const externalRepositories = Array.from(repoMap.values())
-  .sort((a, b) => b.stars - a.stars);
+  .sort((a, b) => b.starsCount - a.starsCount);
 
 console.log('RESULT:', externalRepositories);
 

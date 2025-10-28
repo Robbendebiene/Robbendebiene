@@ -39,7 +39,7 @@ I'm passionate about UI and code design. Mostly trying to build long lasting app
   <ul>
     {{#each externalRepositories}}
     {{#with this}}
-      <li><a href="{{url}}">{{fullName}}</a> | <a href="{{commitsURL}}">commits</a></li>
+      <li><a href="{{url}}">{{fullName}}</a> | <a href="{{commitsURL}}">{{commitsCount}} commits</a></li>
     {{/with}}
     {{/each}}
   </ul>

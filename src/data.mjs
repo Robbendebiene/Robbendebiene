@@ -61,6 +61,9 @@ export default class GitHubDataService {
             login
             contributionsCollection(from: $from) {
               commitContributionsByRepository(maxRepositories: 100) {
+                contributions {
+                  totalCount
+                }
                 repository {
                   nameWithOwner
                   url
@@ -81,7 +84,8 @@ export default class GitHubDataService {
       fullName: re.repository.nameWithOwner,
       permission: re.repository.viewerPermission,
       url: re.repository.url,
-      stars: re.repository.stargazerCount,
+      starsCount: re.repository.stargazerCount,
+      commitsCount: re.contributions.totalCount,
       commitsURL: `https://github.com/${re.repository.nameWithOwner}/commits?author=${user}`
     }));
   }
