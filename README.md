@@ -37,6 +37,8 @@ I'm passionate about UI and code design. Mostly trying to build long lasting app
     <h2>Projects I Contributed To</h2>
   </summary>
   <ul>
+    <!-- Somehow not collected by the script, perhaps due migration from Mercurial -->
+    <li><a href="https://github.com/mozilla-firefox/firefox">mozilla-firefox/firefox</a> | <a href="https://github.com/mozilla-firefox/firefox/commits?author=robbendebiene%40mailbox.org">2 commits</a></li>
       <li><a href="https://github.com/fleaflet/flutter_map">fleaflet/flutter_map</a> | <a href="https://github.com/fleaflet/flutter_map/commits?author&#x3D;Robbendebiene">10 commits</a></li>
       <li><a href="https://github.com/openstreetmap/openstreetmap-website">openstreetmap/openstreetmap-website</a> | <a href="https://github.com/openstreetmap/openstreetmap-website/commits?author&#x3D;Robbendebiene">5 commits</a></li>
       <li><a href="https://github.com/Baseflow/flutter-geolocator">Baseflow/flutter-geolocator</a> | <a href="https://github.com/Baseflow/flutter-geolocator/commits?author&#x3D;Robbendebiene">1 commits</a></li>
